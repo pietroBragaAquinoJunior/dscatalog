@@ -1,6 +1,7 @@
 package com.pietrobraga.backend.resources;
 
 import java.net.URI;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -32,10 +33,10 @@ public class CategoryResource {
 	public ResponseEntity<Page<CategoryDTO>> findAll(
 			@RequestParam(value = "page", defaultValue = "0") Integer page,
 			@RequestParam(value = "linesPerPage", defaultValue = "12") Integer linesPerPage,
-			@RequestParam(value = "direction", defaultValue = "DESC") String direction,
-			@RequestParam(value = "orderBy", defaultValue = "name") String orderBy)
+			@RequestParam(value = "orderBy", defaultValue = "moment") String orderBy,
+			@RequestParam(value = "direction", defaultValue = "DESC") String direction)
 	{
-		PageRequest pageRequest = PageRequest.of(page, linesPerPage, Direction.valueOf(direction), orderBy);
+		PageRequest pageRequest = PageRequest.of(page, linesPerPage, Direction.valueOf(direction), orderBy) )
 		Page<CategoryDTO> list = categoryService.findAllPaged(pageRequest);
 		return ResponseEntity.ok().body(list);
 	}
