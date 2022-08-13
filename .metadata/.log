@@ -664,3 +664,122 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:12:37.647
 !MESSAGE executing callback sts4.classpath.LOEzYywe SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:40:43.592
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LOEzYywe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:40:43.593
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LOEzYywe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:40:43.593
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:40:43.593
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LOEzYywe => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:41:34.466
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:41:34.467
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7259faa3[org.springframework.tooling.boot.ls:1.36.0.202206171137(id=567)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:41:34.467
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:41:36.962
+!MESSAGE Boot LS startup time from start to initialized: 2494ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:41:37.078
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jMVRWTjbisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:41:37.078
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:41:37.078
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:41:37.079
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:41:37.079
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:41:37.079
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jMVRWTjb => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:41:37.087
+!MESSAGE classpath=97 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:41:37.097
+!MESSAGE buffering callback sts4.classpath.jMVRWTjb backend false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:41:37.097
+!MESSAGE executing callback sts4.classpath.jMVRWTjb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 16:41:37.643
+!MESSAGE executing callback sts4.classpath.jMVRWTjb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:01.940
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jMVRWTjb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:01.942
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.jMVRWTjb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:01.943
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:01.944
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jMVRWTjb => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:33.479
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:33.479
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7259faa3[org.springframework.tooling.boot.ls:1.36.0.202206171137(id=567)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:33.480
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:36.072
+!MESSAGE Boot LS startup time from start to initialized: 2592ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:36.186
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yhpuBFsGisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:36.187
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:36.187
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:36.187
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:36.187
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:36.188
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yhpuBFsG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:36.195
+!MESSAGE classpath=97 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:36.201
+!MESSAGE buffering callback sts4.classpath.yhpuBFsG backend false 97
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:36.201
+!MESSAGE executing callback sts4.classpath.yhpuBFsG 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 17:18:38.204
+!MESSAGE executing callback sts4.classpath.yhpuBFsG FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-08-13 17:18:38.204
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
