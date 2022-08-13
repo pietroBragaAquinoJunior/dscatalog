@@ -1,0 +1,5 @@
+package com.pietrobraga.backend.entities;
+
+public class Category {
+
+}
