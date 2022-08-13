@@ -1,0 +1,5 @@
+package com.pietrobraga.backend.dto;
+
+public class CategoryDTO {
+
+}
