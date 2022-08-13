@@ -10,6 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.pietrobraga.backend.dto.CategoryDTO;
 import com.pietrobraga.backend.entities.Category;
 import com.pietrobraga.backend.repositories.CategoryRepository;
+import com.pietrobraga.backend.services.exceptions.EntityNotFoundException;
 
 @Service
 public class CategoryService {
@@ -26,7 +27,7 @@ public class CategoryService {
 	
 	@Transactional(readOnly = true)
 	public CategoryDTO findById(Long id){
-		Category category = repository.findById(id).get();
+		Category category = repository.findById(id).orElseThrow(() -> new EntityNotFoundException("Entity not found"));
 		CategoryDTO categoryDto = new CategoryDTO(category);
 		return categoryDto;
 	}
