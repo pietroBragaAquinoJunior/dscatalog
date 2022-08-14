@@ -43,6 +43,7 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.pietrobraga.backend.entities.Product"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="com.pietrobraga.backend.entities.Category"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="com.pietrobraga.backend.entities.Category"/>
+    <fullyQualifiedTypeName name="com.pietrobraga.backend.dto.CategoryDTO"/>
 </qualifiedTypeNameHistroy>
